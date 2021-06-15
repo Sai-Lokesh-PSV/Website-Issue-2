@@ -17,31 +17,9 @@
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
+					<h1 id="logo"><a href="index.html">The <span>Future Kids</span></a></h1>
 					<nav id="nav">
-						<ul>
-							<li class="current"><a href="index.html">Welcome</a></li>
-							<li class="submenu">
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li class="submenu">
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Dolore Sed</a></li>
-											<li><a href="#">Consequat</a></li>
-											<li><a href="#">Lorem Magna</a></li>
-											<li><a href="#">Sed Magna</a></li>
-											<li><a href="#">Ipsum Nisl</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
-						</ul>
+						
 					</nav>
 				</header>
 
@@ -77,15 +55,8 @@
 
 					<header class="special container">
 						<span><img style="height: 100px; width: 100px"  src="3fd00e716c20425868334c7dd2c864f8.jpg"></span>
-						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
-						<br />
-						I decided to give it a really creative name.</h2>
-						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
-						<br />
-						it's minimally designed, fully responsive, built on HTML5/CSS3,
-						and, like all my stuff,
-						<br />
-						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
+						<h2>ENVIRONMENT</h2>
+						<p></p>
 					</header>
 
 					<!-- One -->
@@ -94,9 +65,27 @@
 								<div class="col-8 col-12-narrower">
 
 									<header>
-										<h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
+										<h1 style="font-family:Georgia, 'Times New Roman', Times, serif; background-color:cornflowerblue; text-align:center; display: inline;">Rainforests of the Sea turn Ghostly White</h1>
 									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
+									<p>When we think of corals, we think of the Great Barrier Reef. Australia has implemented certain reforms that protect the reef such as the “reef 2050 long-term sustainability plan” being implemented from 2015 to 2050, as the Australian government’s response to UNESCO’s World Heritage Committee’s recommendation to protect the corals.
+
+										Along with this, the Australian government has implemented new ship routes which avoid the area where the coral reefs are sensitive to protect them. This has been agreed by the IMO Sub-Committee on Navigation, Communications and Search and Rescue (NCSR), meeting for its 2nd session. (9-13 March).
+										
+										<span id="dots">...</span><span id="more">
+										
+										Coral are complex organisms that live in a symbiotic relationship with algae, providing them with a home in their skeleton. During the day, the algae produce food for the plant by photosynthesis but at night the coral polyps the organisms that makeup coral come out and feed on small organisms. If untouched and unaffected by human actions, corals are “immortal” until a parrotfish feeds on it or it “fights” another coral.
+										
+										This is what happens when everything is normal, but when the temperature rises or decreases just a few degrees things start going wrong. It might only be by a few degrees but similar to the human body, when the temperature rises a few degrees things go wrong. The algae in the coral stop producing food, so the coral ejects the algae and loses its main source of food and along with it, it is colour and this is called “coral bleaching”. When this happens, we can see through the transparent tissues and see the coral skeleton. At this stage, it might look beautiful but now the coral is completely dependent on the polyps for their food. After a while, the coral dies out of starvation and turns “fuzzy” as its tissues disintegrate. This is how the corals that lived for hundreds of years die.
+										
+										  In 2005, the U.S. lost half of its coral reefs in the Caribbean in one year due to a massive bleaching event
+										   The Great Barrier Reef has experienced five mass bleaching events – 1998, 2002, 2016, 2017 and 2020 – all caused by rising ocean temperatures driven by global heating
+										
+										The main reason for the bleaching is rising temperatures in the ocean caused by global warming. The oceans act as a sink and absorb the heat. In the last decade (which is a small-time for corals) reports popped up saying corals are turning “Neon”. Researchers stated this was a type of “sunscreen” the corals started producing to protect the algae from the excessive light and survive the stress and recover after the temperatures recede but prolonged stress kills them.
+										
+										Right now, the only way to protect corals is the same as to prevent glaciers and ice caps from melting, which is to stop global warming.</span>
+										</p>
+										<button class="custom-btn btn-9" style="height: 40px" onclick="myFunction()" id="myBtn">Read
+											more</button>
 									<footer>
 										<ul class="buttons">
 											<li><a href="#" class="button">Find Out More</a></li>
@@ -268,6 +257,26 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				function myFunction() {
+				var dots = document.getElementById("dots");
+				var moreText = document.getElementById("more");
+				var btnText = document.getElementById("myBtn");
+			
+				if (dots.style.display === "none") {
+					dots.style.display = "inline";
+					btnText.innerHTML = "Read more";
+					moreText.style.display = "none";
+				} else {
+					dots.style.display = "none";
+					btnText.innerHTML = "Read less";
+					moreText.style.display = "inline";
+				}
+			}
+			</script>
+
+			
 
 	</body>
 </html>
