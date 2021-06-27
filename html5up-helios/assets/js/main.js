@@ -75,21 +75,21 @@
 					visibleClass: 'navPanel-visible'
 				});
 
-	// Carousels.
-		$('.carousel').each(function() {
+	 // Carousels.
+	 	$('.carousel').each(function() {
 
-			var	$t = $(this),
-				$forward = $('<span class="forward"></span>'),
-				$backward = $('<span class="backward"></span>'),
-				$reel = $t.children('.reel'),
-				$items = $reel.children('article');
+	 		var	$t = $(this),
+	 			$forward = $('<span class="forward"></span>'),
+	 			$backward = $('<span class="backward"></span>'),
+	 			$reel = $t.children('.reel'),
+	 			$items = $reel.children('article');
 
-			var	pos = 0,
-				leftLimit,
-				rightLimit,
-				itemWidth,
-				reelWidth,
-				timerId;
+	 		var	pos = 0,
+	 			leftLimit,
+	 			rightLimit,
+	 			itemWidth,
+	 			reelWidth,
+	 			timerId;
 
 			// Items.
 				if (settings.carousels.fadeIn) {
